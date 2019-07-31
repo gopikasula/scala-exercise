@@ -1,0 +1,9 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mAssigment1Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- show method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- reverse method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- rotate method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fill method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- dedupe method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- word count method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- remove tuple whose values are odd[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- remove tuple whose keys are passed as list[0m[0m

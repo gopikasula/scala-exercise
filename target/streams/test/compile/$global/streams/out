@@ -1,0 +1,11 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/gopikrishna/Desktop/KTM/scala/src/test/scala/exercise/Assigment1.scala:40:12: This catches all Throwables. If this is really intended, use `case e : Throwable` to clear this warning.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case e => println(e.printStackTrace())[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gopikrishna/Desktop/KTM/scala/src/test/scala/exercise/Assigment1.scala:42:13: not found: value result[0m
+[0m[[0m[31merror[0m] [0m[0m    println(result)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/gopikrishna/Desktop/KTM/scala/src/test/scala/exercise/Assigment1.scala:44:12: not found: value result[0m
+[0m[[0m[31merror[0m] [0m[0m    assert(result.equals(expectedResult))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
