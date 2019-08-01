@@ -7,3 +7,6 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- word count method[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- remove tuple whose values are odd[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- remove tuple whose keys are passed as list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- two list concat[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- concatenate maps[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- zip two list without using zip[0m[0m

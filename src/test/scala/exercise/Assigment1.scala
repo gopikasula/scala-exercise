@@ -58,4 +58,27 @@ class Assigment1Test extends FunSuite {
     val expectedResult = Map(("hi",2),("you",1))
     assert(result.equals(expectedResult))
   }
+
+  test("two list concat"){
+    val result = assigment.concat(List(1,2,3),List(4,5,6))
+    val expectedResult = List(1,2,3,4,5,6)
+    assert(result.equals(expectedResult))
+  }
+
+  test("concatenate maps"){
+   val map1 = Map("hi"->1,"how"->2)
+   val map2 = Map("hi"->2,"are"->5)
+   val expectedResult = Map("hi"->3,"how"->2,"are"->5)
+   val result = assigment.concatenate(map1,map2)
+   assert(result.equals(expectedResult))
+  }
+
+  test("zip two list without using zip"){
+    val list1 = List(1,2,3,4)
+    val list2 = List("a","b","c")
+    val result = assigment.zip(list1,list2)
+    val expectedResult = List((1,"a"),(2,"b"),(3,"c"))
+    println(result)
+    assert(result.equals(expectedResult))
+  }
 }

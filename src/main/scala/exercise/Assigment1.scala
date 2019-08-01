@@ -39,6 +39,7 @@ class Assigment1 {
     deDupe(List[Int](),list)
   }
 
+
   def wordCount(sentence:String):Map[String,Int]= {
     sentence.split(" ") groupBy{x=>x} map {x =>(x._1,x._2.length)}
   }
@@ -50,5 +51,25 @@ class Assigment1 {
 
   def removeKeys(keys:List[String],map:Map[String,Int]):Map[String,Int]={
     map.filter{case(key,value) => !keys.contains(key) }
+  }
+
+  def concat(list1:List[Int],list2:List[Int]):List[Int]={
+    list2.foldLeft(list1)((acc,ele)=>acc:+ele)
+  }
+
+  //Concatenate two Maps
+  def concatenate(map1:Map[String,Int], map2:Map[String,Int])={
+    map2.foldLeft(map1){ case (acc,(key,value)) => acc+(key->(acc.getOrElse(key,0)+value)) }
+  }
+
+  //zip two list into one list without using list zip method
+  def zip(list1:List[Int], list2:List[String]):List[(Int,String)]={
+    def zipRec(acc:List[(Int,String)],list1:List[Int], list2:List[String]):List[(Int,String)] = {
+       if(list1.isEmpty || list2.isEmpty)
+         acc
+       else
+         zipRec(acc.:+(list1.head,list2.head),list1.tail,list2.tail)
+    }
+    zipRec(List[(Int,String)](),list1,list2)
   }
 }
